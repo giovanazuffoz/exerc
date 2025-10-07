@@ -11,4 +11,5 @@ function principal(){
    
     resposta.innerHTML = ``
     resposta.innerHTML += calcular(cel)
+    resposta.innerHTML += `°F`
 }

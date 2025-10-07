@@ -18,5 +18,6 @@ function principal(){
 
     console.log(verificar(idade))
     resposta.innerHTML = ``
+    resposta.innerHTML += `Com ${idade} anos <br>`
     resposta.innerHTML += verificar(idade)
 }
